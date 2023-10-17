@@ -1,0 +1,64 @@
+p {
+    font-size: 20px;
+}
+
+h3{
+    display: flex;
+    color: brown;
+    justify-content: center;
+}
+body{
+    font-family:'Courier New', Courier, monospace
+}
+#navbar{
+    display: flex;
+    justify-content:space-evenly;
+    background-color:chartreuse;
+    text-align: center;
+         
+}
+#navbar a{
+ text-decoration:solid;
+ font-family: Arial;
+}
+#navbar a:hover{
+    color: red;
+   }
+   
+
+.second{
+    display: flex;
+    justify-content:center;
+    color:crimson;
+}
+
+.third{
+    display: flex;
+    justify-content:center;
+    color:gold
+ }
+ 
+.image{
+    display: flex;
+   justify-content:space-between;
+}
+.center{
+ display:flex;
+justify-content:stretch;
+color:blueviolet
+}
+
+/* }
+    .image{
+    width:auto
+}    */
+
+/* .container {
+    align-items: center; 
+    float: left;
+  }
+  .image{
+      float: left;
+    padding: 5px;
+    
+  } */
